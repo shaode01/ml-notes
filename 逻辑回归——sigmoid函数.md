@@ -102,6 +102,8 @@ In many ways, logistic regression is very similar to linear regression.  One big
 >　2. 他是一个单调上升的函数，具有良好的连续性，不存在不连续点。
 >
 >--http://blog.csdn.net/bitcarmanlee/article/details/51154481
+
+
 缺点大概是在x很大或很小时梯度几乎为0，而当x维度很大时，很容易出现梯度近似为0的情况，梯度下降法就会收敛得很慢。
 
 http://www.win-vector.com/dfiles/LogisticRegressionMaxEnt.pdf
