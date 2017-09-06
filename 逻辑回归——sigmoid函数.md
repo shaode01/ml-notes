@@ -96,6 +96,12 @@ In many ways, logistic regression is very similar to linear regression.  One big
 >
 >（ps：解释选择sigmoid的原因时提到了指数族，看不懂）
 
+
+> 1. 他的输入范围是−∞→+∞ ，而值域刚好为（0，1），正好满足概率分布为（0，1）的要求。我们用概率去描述分类器，自然比单纯的某个阈值要方便很多； 
+>
+>　2. 他是一个单调上升的函数，具有良好的连续性，不存在不连续点。
+>
+>--http://blog.csdn.net/bitcarmanlee/article/details/51154481
 缺点大概是在x很大或很小时梯度几乎为0，而当x维度很大时，很容易出现梯度近似为0的情况，梯度下降法就会收敛得很慢。
 
 http://www.win-vector.com/dfiles/LogisticRegressionMaxEnt.pdf
