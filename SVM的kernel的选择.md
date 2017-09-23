@@ -34,3 +34,7 @@ http://members.cbio.mines-paristech.fr/~jvert/svn/bibli/local/Cherkassky2004Prac
 
 https://www.quora.com/How-do-I-select-SVM-kernels/answer/Prasoon-Goyal
 RBF核函数是唯一具有平移不变性
+
+http://machinelearning.wustl.edu/mlpapers/year/32303030
+
+https://stats.stackexchange.com/questions/18030/how-to-select-kernel-for-svm
